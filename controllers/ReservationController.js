@@ -22,7 +22,7 @@ const makeReservation = async (req, res) => {
       if (!errors.isEmpty())
       {
         return res.status(400).json({errors:errors.array()});
-      }
+      } 
     const { reservedBy, date, hourStart, hourEnd } = req.body;
     const roomReserved = req.params.idRoom;
 

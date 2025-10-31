@@ -2,7 +2,7 @@
   "development": {
   "username": "root",
   "password": "Rubius0512345678",
-  "database": "ExpressDb",
+  "database": "expressdb",
   "host": "127.0.0.1", 
   "dialect": "mysql"
 },
